@@ -1,2 +1,114 @@
-# malla-peb
-malla interactiva de pedagogía en básica uc
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1>Malla Curricular Educación Básica</h1>
+  <div class="malla">
+
+    <!-- Semestre 1 -->
+    <div class="semestre">
+      <h2>Semestre 1</h2>
+      <button class="ramo" id="numeros" data-desbloquea="didmat1">Números</button>
+      <button class="ramo" id="aprendizaje" data-desbloquea="aprendEscolar practica1">Aprendizaje y desarrollo: teoría y práctica</button>
+      <button class="ramo" id="teoriaEdu" data-desbloquea="electivo8">Teoría de la educación</button>
+      <button class="ramo">Desarrollo y enseñanza del lenguaje artístico visual</button>
+      <button class="ramo" id="linguistica" data-desbloquea="didlectura">Fundamentos lingüísticos</button>
+    </div>
+
+    <!-- Semestre 2 -->
+    <div class="semestre">
+      <h2>Semestre 2</h2>
+      <button class="ramo" id="geometria" data-desbloquea="didmat1">Geometría</button>
+      <button class="ramo" id="aprendEscolar" data-desbloquea="didcsnat2 didmat1 didcss didescrit didgeo">Aprendizaje y desarrollo del escolar</button>
+      <button class="ramo" id="curriculum" data-desbloquea="didcsnat2 didmat1 didescrit didcss didgeo electivo8">Curriculum en la educación básica</button>
+      <button class="ramo" id="oralidad" data-desbloquea="didcsnat2 didlectura didescrit">Oralidad y desarrollo semiótico infantil</button>
+      <button class="ramo" id="practica1" data-desbloquea="practica2">Práctica I</button>
+    </div>
+
+    <!-- Semestre 3 -->
+    <div class="semestre">
+      <h2>Semestre 3</h2>
+      <button class="ramo" id="quimica" data-desbloquea="didcsnat2">Química general</button>
+      <button class="ramo" id="evaluacion" data-desbloquea="didcsnat2">Evaluación en educación básica</button>
+      <button class="ramo" id="didlectura" data-desbloquea="didescrit">Didáctica de la lectura</button>
+      <button class="ramo" id="csociales" data-desbloquea="didcss">Ciencias sociales</button>
+      <button class="ramo">Formación teológica</button>
+    </div>
+
+    <!-- Semestre 4 -->
+    <div class="semestre">
+      <h2>Semestre 4</h2>
+      <button class="ramo" id="analisisDatos" data-desbloquea="didmat1">Análisis de datos</button>
+      <button class="ramo" id="biologia" data-desbloquea="didcsnat1">Introducción a la biología</button>
+      <button class="ramo">Diversidad e inclusión en educación</button>
+      <button class="ramo">Optativo Historia Chile y América</button>
+      <button class="ramo">Filosofía ¿Para qué?</button>
+    </div>
+
+    <!-- Semestre 5 -->
+    <div class="semestre">
+      <h2>Semestre 5</h2>
+      <button class="ramo" id="didmat1" data-desbloquea="didmat2">Didáctica de la matemática I</button>
+      <button class="ramo" id="didcsnat1" data-desbloquea="didcsnat2">Didáctica de las ciencias naturales I</button>
+      <button class="ramo">Literatura para niños</button>
+      <button class="ramo" id="practica2" data-desbloquea="practica3 etica">Práctica II</button>
+      <button class="ramo">Optativo Formación General</button>
+    </div>
+
+    <!-- Semestre 6 -->
+    <div class="semestre">
+      <h2>Semestre 6</h2>
+      <button class="ramo" id="didmat2">Didáctica de la matemática II</button>
+      <button class="ramo" id="fisica" data-desbloquea="didcsnat2">Física general para educación básica</button>
+      <button class="ramo" id="didescrit">Didáctica de la escritura</button>
+      <button class="ramo" id="didcss">Didáctica de las ciencias sociales</button>
+      <button class="ramo">Optativo Formación General</button>
+    </div>
+
+    <!-- Semestre 7 -->
+    <div class="semestre">
+      <h2>Semestre 7</h2>
+      <button class="ramo">Seminario de investigación en educación</button>
+      <button class="ramo" id="geografia" data-desbloquea="didgeo">Geografía de Chile: espacio y sociedad</button>
+      <button class="ramo" id="practica3">Práctica III</button>
+      <button class="ramo">Optativo Formación General</button>
+      <button class="ramo">Optativo Formación General</button>
+    </div>
+
+    <!-- Semestre 8 -->
+    <div class="semestre">
+      <h2>Semestre 8</h2>
+      <button class="ramo" id="didcsnat2">Didáctica de las ciencias naturales II</button>
+      <button class="ramo" id="electivo8">Electivo: Historia y políticas educacionales / Educación y filosofía / Educación, cultura y sociedad</button>
+      <button class="ramo" id="etica">Ética profesional en educación</button>
+      <button class="ramo" id="didgeo">Didáctica de la geografía</button>
+      <button class="ramo">Optativo Formación General</button>
+      <button class="ramo">Optativo Formación General</button>
+    </div>
+
+    <!-- Semestre 9 -->
+    <div class="semestre">
+      <h2>Semestre 9</h2>
+      <button class="ramo">Gestión de liderazgo en el aula</button>
+      <button class="ramo">Elementos de la gramática española</button>
+      <button class="ramo">Literatura infantil y juvenil</button>
+      <button class="ramo">Práctica profesional I</button>
+    </div>
+
+    <!-- Semestre 10 -->
+    <div class="semestre">
+      <h2>Semestre 10</h2>
+      <button class="ramo">Gramática para la competencia comunicativa</button>
+      <button class="ramo">Leer y escribir a través del currículum</button>
+      <button class="ramo">Didáctica de la comunicación multimodal</button>
+      <button class="ramo">Práctica profesional II</button>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
